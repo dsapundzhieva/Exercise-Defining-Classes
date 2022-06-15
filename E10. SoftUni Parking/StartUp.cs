@@ -13,6 +13,10 @@ namespace SoftUniParking
             var car3 = new Car("BMW", "A3", 110, "Tes88");
             var car4 = new Car("VW", "A3", 110, "T12333");
             var car5 = new Car("MErcdes", "A3", 110, "YU87777");
+            var car6 = new Car("tests", "A3", 110, "test");
+            var car7 = new Car("ггггdгг", "A3", 110, "гггг7gг");
+
+
 
 
             Console.WriteLine(car.ToString());
@@ -31,13 +35,16 @@ namespace SoftUniParking
 
             Console.WriteLine(parking.AddCar(car2));
             // Successfully added new car Audi EB8787MN
-
+            Console.WriteLine(parking.AddCar(car3));
+            Console.WriteLine(parking.AddCar(car4));
 
             Console.WriteLine(parking.GetCar("EB8787MN").ToString());
             // Make: Audi
             // Model: A3
             // HorsePower: 110
             // RegistrationNumber: EB8787MN
+            Console.WriteLine(parking.AddCar(car5));
+            Console.WriteLine(parking.AddCar(car6));
 
             List<string> registrationNums = new List<string>()
             {
@@ -46,10 +53,15 @@ namespace SoftUniParking
                 "Tes88"
             };
 
+            Console.WriteLine(parking.AddCar(car7));
+
+
             List<string> registrationNums1 = parking.Cars.Select(x => x.RegistrationNumber).ToList();
 
             Console.WriteLine(parking.RemoveCar("T12333"));
             // Successfullyremoved EB8787MN
+            Console.WriteLine(parking.AddCar(car6));
+            Console.WriteLine(parking.AddCar(car6));
 
             parking.RemoveSetOfRegistrationNumber(registrationNums);
 

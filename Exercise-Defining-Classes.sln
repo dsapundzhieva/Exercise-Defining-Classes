@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E06. SpeedRacing", "E06. Sp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E07. Raw Data", "E07. Raw Data\E07. Raw Data.csproj", "{E8D53799-9378-40A1-B5F6-B55FC53D5741}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E08. Car Salesman", "E08. Car Salesman\E08. Car Salesman.csproj", "{03DC1FBA-2F72-4011-835A-421ED6EF0EE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E08.CarSalesman", "E08. Car Salesman\E08.CarSalesman.csproj", "{03DC1FBA-2F72-4011-835A-421ED6EF0EE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E09. Pokemon", "E09. Pokemon\E09. Pokemon.csproj", "{22C405C8-663E-49B0-91CD-25B6B4F89161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E09.Pokemon", "E09. Pokemon\E09.Pokemon.csproj", "{22C405C8-663E-49B0-91CD-25B6B4F89161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10. SoftUni Parking", "E10. SoftUni Parking\E10. SoftUni Parking.csproj", "{AC5A97B9-509E-4877-AA30-233101C875CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E10. SoftUni Parking", "E10. SoftUni Parking\E10. SoftUni Parking.csproj", "{AC5A97B9-509E-4877-AA30-233101C875CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

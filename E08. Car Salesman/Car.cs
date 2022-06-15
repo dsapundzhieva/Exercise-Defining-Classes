@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DefiningClasses
+﻿namespace DefiningClasses
 {
     public class Car
     {
@@ -10,10 +6,16 @@ namespace DefiningClasses
 
         public Engine Engine { get; set; }
 
-        public Car(string model, Engine engine)
+        public int Weight { get; set; }
+
+        public string Color { get; set; }
+
+        public Car(string model, Engine engine, int weight, string color)
         {
             this.Model = model;
             this.Engine = engine;
+            this.Weight = weight;
+            this.Color = color;
         }
     }
 }

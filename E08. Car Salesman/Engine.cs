@@ -1,19 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DefiningClasses
+﻿namespace DefiningClasses
 {
     public class Engine
     {
-        public Engine(int speed, int power)
+        public Engine(string model, int power, int displacement, string efficiency)
         {
-            this.Speed = speed;
+            this.Model = model;
             this.Power = power;
+            this.Displacement = displacement;
+            this.Efficiency = efficiency;
         }
 
-        public int Speed { get; set; }
-
+        public string Model { get; set; }
         public int Power { get; set; }
+        public int Displacement { get; set; }
+        public string Efficiency { get; set; }
+
     }
 }
